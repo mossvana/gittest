@@ -72,7 +72,7 @@ int calculate_sha256(const char *path, char output[65]) {
 }
 
 // 💡 VT API 키를 여기에 입력하세요! (따옴표 안에 발급받은 키 삽입)
-#define VT_API_KEY "a379b8883a963de0a11fc93b1ca2e1fd9717ef3082aa56e8cdabc64062e85c72"
+#define VT_API_KEY "your_key"
 
 // libcurl에서 응답받은 데이터를 메모리에 저장하기 위한 구조체
 struct MemoryStruct {
